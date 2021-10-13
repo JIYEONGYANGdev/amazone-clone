@@ -1,0 +1,28 @@
+.home{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__row{
+    display:flex;
+    /* flex-wrap: wrap; */
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+/* .home_row__eachProduct{
+    display: flex;
+    margin: 10px;
+    object-fit: contain;
+} */
+
+.home__image {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    /* max-width: 1500px; */
+    z-index: -1;
+    margin-bottom: -150px;
+}
